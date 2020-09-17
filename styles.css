@@ -1,0 +1,74 @@
+html {
+    background-color: white;
+    color: #2f2f2f;
+    font-family: 'Lora', 'Black Ops One', cursive, 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(to right, #D9AFD9 0%, #97D9E1 100%);
+}
+
+/* Snake Game Title */
+h1 {
+    text-align: center;
+}
+
+/* Score Board */
+.score-board {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.title {
+    color: deeppink;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* Game Board Container */
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 2px solid hotpink;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: blueviolet;
+    border-radius: 4px;
+}
+
+.apple {
+    background-color: mediumvioletred;
+    border-radius: 10px;
+}
+
+/* New game Button */
+.start-Btn {
+    margin: 16px;
+    background-color: #97D9E1;
+    border-radius: 4px;
+    border: 1px solid hotpink;
+}
+
+.start-Btn:focus {
+    outline: none;
+}
+
+.start-Btn:active {
+    transform: translateY(1px);
+}
+
+#message {
+    text-align: center;
+    margin-top: 40px;
+}
